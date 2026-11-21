@@ -1,0 +1,14 @@
+# Ignore raw & generated image folders
+extracted_digits/
+benchmark_0_to_11/images/
+benchmark_270/images/
+benchmark_540/images/
+real_test/
+train/
+valid/
+test/
+
+# Python & OS junk
+__pycache__/
+*.pyc
+.DS_Store

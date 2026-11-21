@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['10 MPH', '15 MPH', '20 MPH', '25 MPH', '30 MPH', '35 MPH', '40 MPH', '45 MPH', '50 MPH', '55 MPH', '60 MPH', '65 MPH', '70 MPH']
+
+roboflow:
+  workspace: alex-wong
+  project: speed-limit
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/alex-wong/speed-limit/dataset/1
